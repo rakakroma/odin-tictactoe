@@ -1,0 +1,17 @@
+* {
+  border: 1px solid gray;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 300px;
+  width: 300px;
+}
+
+.win-count {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
